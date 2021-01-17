@@ -1,3 +1,40 @@
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f81290d95ddb4c1e931dd11c20e4f8a2)](https://app.codacy.com/gh/BuildForSDGCohort2/Team-197-Group-A-BackEnd_PHP?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/Team-197-Group-A-BackEnd_PHP&utm_campaign=Badge_Grade_Dashboard)
+
+## Installation (Backend)
+
+first clone the repository
+```bash
+https://github.com/obizke/property-management-system.git
+```
+
+Change the directory to the clone path
+
+```bash
+cd  property-management-system
+```
+then update the packages with composer
+
+```bash
+composer update
+```
+Make a copy of the .env.exaple and create a database in your db server
+
+```bash
+cp .env.example .env
+```
+Generate app key
+
+```bash
+php artisan key:generate
+
+```
+Run the database migrations to create the tables
+```bash
+php artisan migrate
+
+```
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
